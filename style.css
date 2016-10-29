@@ -1,0 +1,605 @@
+/*CSS Document*/
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-family: Sans-Serif;
+	font-size: 20px;
+	width: auto;
+	margin: auto;
+	background-color: rgb(100, 100, 100);
+}
+
+div.Inhoud {
+	width: 50%;
+	margin: auto;
+}
+
+div.Title_Homepage {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: black;
+	color: white;
+	border: 0px solid black;
+}
+
+div.Tekst_Homepage {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: black;
+	color: white;
+	border: 0px solid black;
+}
+
+img.Scouting {
+	padding-bottom: 15px;
+	width: 25%;
+	float: right;
+}
+
+img.Gamer {
+	padding-bottom: 15px;
+	width: 25%;
+	float: right;
+}
+
+img.Schiphol {
+	padding-bottom: 15px;
+	width: 25%;
+	float: right;
+}
+
+img.Friends {
+	padding-bottom: 15px;
+	width: 25%;
+	float: right;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+	text-align: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+a:link {
+	color: white;
+	background-color: black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+a:hover {
+	color: black;
+	background-color: rgb(0,230,0);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid rgb(0,230,0);
+    font-size: 20px;
+}
+
+div.links {
+    border-bottom: 5px solid rgb(0, 230, 0);
+}
+
+img.Img_Scouting {
+	float: right;
+	width: 30%;
+}
+
+div.Q-News_Title {
+	text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+	text-align: center;
+}
+
+a.Q-News_Title:link {
+	color: white;
+	background-color: transparent;
+}
+
+a.Q-News_Title:hover {
+	color: white;
+	background-color: transparent;
+}
+
+img.Img_Games {
+	float: right;
+	width: 75%;
+}
+
+p {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+img.Img_Schiphol {
+	float: right;
+	width: 40%;
+}
+
+p.De_10_beste_games {
+	padding-bottom: 20px;
+	border-bottom: 4px solid grey;
+}
+
+ul.Friends {
+    margin: 0;
+    padding: 20px;
+}
+
+li.Friends {
+    border-right: none;
+    font-size: 21px;
+}
+
+img.Img_Friends {
+	float: right;
+	width: 50%;
+}
+
+p.Kenmerken_Friends {
+	margin-top: 0px;
+	margin-bottom: -5px;
+}
+
+p.Begin_Kenmerken_Friends {
+	margin-bottom: -10px;
+}
+
+a.Lees_Verder:link {
+  color: white;
+  background-color: transparent;
+  padding: 0px;
+}
+
+a.Lees_Verder:hover {
+  color: rgb(0,230,0);
+  background-color: transparent;
+}
+
+a.add_left {
+	float: left;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 50%;
+	position: fixed
+}
+
+img.add_left {
+	border: 2px solid black;
+	width: 100%;
+}
+
+a.add_left:hover {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 8.5%;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+a.add_left:link {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 8.5%;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+a.add_right {
+	float: left;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 50%;
+	position: fixed;
+	margin-left: 86.5%;
+}
+
+img.add_right {
+	border: 2px solid black;
+	width: 	100%;
+}
+
+a.add_right:hover {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 8.5%;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+
+a.add_right:link {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 8.5%;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+
+div.ad_bottom {
+	margin: 0 auto;
+	position: relative;
+	width:50%;
+}
+
+
+img.add_bottom {
+	border: 0px solid black;
+	width: 100%;
+}
+
+a.add_bottom {
+	float: bottom;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	padding: 0px;
+}
+
+a.add_bottom:hover {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 	100%;
+	padding: 0px;
+}
+
+a.add_bottom:link {
+	color: black;
+	background-color: transparent;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+	width: 100%;
+	padding: 0px;
+}
+
+p.Tekst_Homepage {
+	padding-bottom: 50px;
+}
+
+div.Scouting_Tekst_Homepage {
+	border-bottom: 65px solid transparent;
+}
+
+div.Gamer_Tekst_Homepage {
+	border-bottom: 60px solid transparent;
+}
+
+div.Schiphol_Tekst_Homepage {
+	border-bottom: 60px solid transparent;
+}
+
+div.Friends_Tekst_Homepage {
+	border-bottom: 0px solid transparent;
+}
+
+@media (max-width: 400px)	{
+	*{
+		padding:0;
+		margin:0;
+	}
+
+	body {
+		font-family: Sans-Serif;
+		font-size: 20px;
+		width: auto;
+		margin: auto;
+		background-color: rgb(100, 100, 100);
+	}
+
+	div.Inhoud {
+		width: 60%;
+		margin: auto;
+	}
+
+	div.Title_Homepage {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: black;
+		color: white;
+		border: 0px solid black;
+	}
+
+	div.Tekst_Homepage {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		background-color: black;
+		color: white;
+		border: 0px solid black;
+	}
+
+	img.Scouting {
+		padding-bottom: 15px;
+		width: 25%;
+		float: right;
+	}
+
+	img.Gamer {
+		padding-bottom: 15px;
+		width: 25%;
+		float: right;
+	}
+
+	img.Schiphol {
+		padding-bottom: 15px;
+		width: 25%;
+		float: right;
+	}
+
+	img.Friends {
+		padding-bottom: 15px;
+		width: 25%;
+		float: right;
+	}
+
+	div a {
+	    text-decoration: none;
+	    color: white;
+	    padding: 10px;
+	    display: inline-block;
+		text-align: center;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	a:link {
+		color: white;
+		background-color: black;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	a:hover {
+		color: black;
+		background-color: rgb(0,230,0);
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	ul.links {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: black;
+	}
+
+	li {
+	    display: inline-block;
+	    border-right: 1px solid rgb(0,230,0);
+	    font-size: 20px;
+	}
+
+	div.links {
+	    border-bottom: 5px solid rgb(0, 230, 0);
+	}
+
+	img.Img_Scouting {
+		float: right;
+		width: 30%;
+	}
+
+	div.Q-News_Title {
+		text-decoration: none;
+	    color: white;
+	    padding: 15px;
+	    display: inline-block;
+		text-align: center;
+	}
+
+	a.Q-News_Title:link {
+		color: white;
+		background-color: transparent;
+	}
+
+	a.Q-News_Title:hover {
+		color: white;
+		background-color: transparent;
+	}
+
+	img.Img_Games {
+		float: right;
+		width: 75%;
+	}
+
+	p {
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	img.Img_Schiphol {
+		float: right;
+		width: 40%;
+	}
+
+	p.De_10_beste_games {
+		padding-bottom: 20px;
+		border-bottom: 4px solid grey;
+	}
+
+	ul.Friends {
+	    margin: 0;
+	    padding: 20px;
+	}
+
+	li.Friends {
+	    border-right: none;
+	    font-size: 21px;
+	}
+
+	img.Img_Friends {
+		float: right;
+		width: 50%;
+	}
+
+	p.Kenmerken_Friends {
+		margin-top: 0px;
+		margin-bottom: -5px;
+	}
+
+	p.Begin_Kenmerken_Friends {
+		margin-bottom: -10px;
+	}
+
+	a.Lees_Verder:link {
+	  color: white;
+	  background-color: transparent;
+	  padding: 0px;
+	}
+
+	a.Lees_Verder:hover {
+	  color: rgb(0,230,0);
+	  background-color: transparent;
+	}
+
+	a.add_left {
+		float: left;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 50%;
+	}
+
+	img.add_left {
+		border: 2px solid black;
+		width: 100%;
+	}
+
+	a.add_left:hover {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 10%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+
+	a.add_left:link {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 10%;
+		margin-left: 3%;
+		margin-top: 3%;
+	}
+
+	a.add_right {
+		float: left;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 50%;
+	}
+
+	img.add_right {
+		border: 2px solid black;
+		width: 	100%;
+	}
+
+	a.add_right:hover {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 10%;
+		margin-right: 3%;
+		margin-top: 3%;
+	}
+
+	a.add_right:link {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 10%;
+		margin-right: 0%;
+		margin-top: 3%;
+	}
+
+	div.ad_bottom {
+		margin: 0 auto;
+		position: relative;
+		width:50%;
+	}
+
+	img.add_bottom {
+		border: 0px solid black;
+		width: 100%;
+	}
+
+	a.add_bottom {
+		float: bottom;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		padding: 0px;
+	}
+
+	a.add_bottom:hover {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 	100%;
+		padding: 0px;
+	}
+
+	a.add_bottom:link {
+		color: black;
+		background-color: transparent;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		width: 100%;
+		padding: 0px;
+	}
+
+	p.Tekst_Homepage {
+		padding-bottom: 50px;
+	}
+
+	div.Scouting_Tekst_Homepage {
+		border-bottom: 65px solid transparent;
+	}
+
+	div.Gamer_Tekst_Homepage {
+		border-bottom: 60px solid transparent;
+	}
+
+	div.Schiphol_Tekst_Homepage {
+		border-bottom: 60px solid transparent;
+	}
+
+	div.Friends_Tekst_Homepage {
+		border-bottom: 0px solid transparent;
+	}
+}
+
+@media (max-width: 800px)	{
+	
+}
+
+@media (max-width: 1200px)	{
+	
+}
+
+@media (max-width: 1600px)	{
+	
+}
